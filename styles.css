@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+header {
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.brainrot {
+    background-color: #ffe5d9;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.brainrot img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+}
+
+footer {
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
